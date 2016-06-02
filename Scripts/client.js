@@ -1,6 +1,6 @@
 APIClient = function () {
     this.token = this.getCookie("token");
-    this.baseUri = "http://localhost:49782";
+    this.baseUri = "http://bookingstest.no1lounges.com/";
     jQuery.support.cors = true;
 
     if (this.token == "") {
