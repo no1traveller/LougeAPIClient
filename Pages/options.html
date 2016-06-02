@@ -1,0 +1,79 @@
+<hr />
+<button type="button" onclick="javascript: client.getLounges();">Get Lounges</button>
+<br />
+<button type="button" onclick="javascript: client.getLounge();">Get Lounge</button>
+<input type="text" id="loungeId" placeholder="Lounge Id" />
+<br />
+<button type="button" onclick="javascript: client.getExtras();">Get Extras</button>
+<input type="text" id="loungeIdE" placeholder="Lounge Id" />
+<br />
+<button type="button" onclick="javascript: client.getLoungeAvailability();">Get Lounge Availability</button>
+<input type="text" id="loungeIdA" placeholder="Lounge Id" />
+<input type="text" id="arrival" placeholder="Arrival" />(yyyy-MM-ddTHH:mm:ss)
+<input type="text" id="adults" placeholder="Adults" />
+<input type="text" id="children" placeholder="Children" />
+<input type="text" id="infants" placeholder="Infants" />
+<br />
+<button type="button" onclick="javascript: client.getLoungeOpeningTimes();">Get Lounge Opening Times</button>
+<input type="text" id="loungeIdO" placeholder="Lounge Id" />
+<input type="text" id="day" placeholder="Arrival" />(yyyy-MM-dd)
+<br />
+<button type="button" onclick="javascript: client.getLoungePrice();">Get Lounge Price</button>
+<input type="text" id="loungeIdP" placeholder="Lounge Id" />
+<input type="text" id="dayP" placeholder="Arrival" />(yyyy-MM-dd)
+<br />
+<button type="button" onclick="javascript: client.createQuote();">Create Quote</button>
+<input type="text" id="loungeIdQ" placeholder="Lounge Id" />
+<input type="text" id="flightTime" placeholder="Flight Time" />(yyyy-MM-ddTHH:mm:ss)
+<input type="text" id="adultsQ" placeholder="Adults" />
+<input type="text" id="childrenQ" placeholder="Children" />
+<input type="text" id="infantsQ" placeholder="Infants" />
+<br />
+<button type="button" onclick="javascript: client.addExtra();">Add Extra</button>
+<input type="text" id="quoteId" placeholder="Quote Id" />
+<input type="text" id="extraId" placeholder="Extra Id" />
+<input type="text" id="quantity" placeholder="Quantity" />
+<br />
+<button type="button" onclick="javascript: client.updatePassengerInfo();">Update Passenger Info</button>
+<input type="text" id="quoteIdP" placeholder="Quote Id" />
+<input type="text" id="emailP" placeholder="Email" />
+<input type="text" id="phoneP" placeholder="Phone" />
+<input type="text" id="titleP" placeholder="Title" />
+<input type="text" id="firstNameP" placeholder="FirstName" />
+<input type="text" id="lastNameP" placeholder="LastName" />
+<br />
+<button type="button" onclick="javascript: client.updateBillingInfo();">Update Billing Info</button>
+<input type="text" id="quoteIdZ" placeholder="Quote Id" />
+<input type="text" id="titleZ" placeholder="Title" />
+<input type="text" id="firstNameZ" placeholder="FirstName" />
+<input type="text" id="lastNameZ" placeholder="LastName" />
+<input type="text" id="line1" placeholder="Line 1" />
+<input type="text" id="line2" placeholder="Line 2" />
+<input type="text" id="city" placeholder="City" />
+<input type="text" id="country" placeholder="Country" />
+<input type="text" id="postCode" placeholder="Postcode" />
+<br />
+<button type="button" onclick="javascript: client.confirmQuote();">Confirm Quote</button>
+<input type="text" id="quoteIdC" placeholder="Quote Id" />
+<input type="text" id="email" placeholder="Email" />
+<input type="text" id="phone" placeholder="Phone" />
+<input type="text" id="title" placeholder="Title" />
+<input type="text" id="firstName" placeholder="FirstName" />
+<input type="text" id="lastName" placeholder="LastName" />
+<br />
+<button type="button" onclick="javascript: client.getBooking();">Get Booking</button>
+<input type="text" id="bookingRef" placeholder="Booking Ref" />
+<br />
+<button type="button" onclick="javascript: client.amendBooking();">Amend Booking</button>
+<input type="text" id="bookingRefA" placeholder="Booking Ref" />
+<input type="text" id="emailA" placeholder="Email" />
+<input type="text" id="phoneA" placeholder="Phone" />
+<input type="text" id="titleA" placeholder="Title" />
+<input type="text" id="firstNameA" placeholder="FirstName" />
+<input type="text" id="lastNameA" placeholder="LastName" />
+<br />
+<button type="button" onclick="javascript: client.deleteBooking();">Delete Booking</button>
+<input type="text" id="bookingRefD" placeholder="Booking Ref" />
+<br />
+<div id="results"></div>
+<hr />
